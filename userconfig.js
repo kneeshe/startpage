@@ -3,7 +3,7 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
-const preferredDarkTheme = macchiato;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -14,7 +14,7 @@ const default_configuration = {
     scale: "C",
   },
   clock: {
-    format: "k:i p",
+    format: "h:i",
     icon_color: palette.maroon,
   },
   additionalClocks: [
@@ -93,7 +93,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "media",
+          name: "stream",
           links: [
             {
               name: "уп",
