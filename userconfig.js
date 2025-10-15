@@ -96,9 +96,9 @@ const default_configuration = {
           name: "stream",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "crunchyroll",
+              url: "https://www.crunchyroll.com/pt-br",
+              icon: "crunchyroll",
               icon_color: palette.green,
             },
             {
