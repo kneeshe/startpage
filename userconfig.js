@@ -70,23 +70,23 @@ const default_configuration = {
               name: "gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
               icon_color: palette.red,
             },
             {
+              name: "outlook",
+              url: "https://outlook.live.com/owa/",
+              icon: "brand-windows",
+              icon_color: palette.blue,
+            },
+            {
+              name: "proton",
+              url: "https://mail.proton.me/u/0/inbox",
+              icon: "mail",
+              icon_color: palette.sapphire,
+            },
+            {
               name: "drive",
-              url: "https://drive.google.com/drive/home",
+              url: "https://drive.google.com/drive/u/0/my-drive",
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
@@ -138,14 +138,14 @@ const default_configuration = {
           links: [
             {
               name: "github",
-              url: "https://github.com",
+              url: "https://github.com/kneeshe",
               icon: "brand-github",
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              name: "gitlab",
+              url: "https://gitlab.com/kneeshe",
+              icon: "brand-gitlab",
               icon_color: palette.peach,
             },
             {
@@ -189,10 +189,10 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
+              name: "claude",
+              url: "https://claude.ai/new",
+              icon: "robot",
+              icon_color: palette.peach,
             },
             {
               name: "hackernews",
@@ -200,18 +200,18 @@ const default_configuration = {
               icon: "brand-redhat",
               icon_color: palette.peach,
             },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
-            },
+            // {
+            //   name: "uber engineering",
+            //   url: "https://www.uber.com/en-GB/blog/london/engineering",
+            //   icon: "brand-uber",
+            //   icon_color: palette.red,
+            // },
+            // {
+            //   name: "netflix tech blog",
+            //   url: "https://netflixtechblog.com",
+            //   icon: "brand-netflix",
+            //   icon_color: palette.blue,
+            // },
           ],
         },
       ],
