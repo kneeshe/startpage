@@ -239,7 +239,7 @@ const default_configuration = {
               name: "telegram",
               url: "https://web.telegram.org",
               icon: "brand-telegram",
-              icon_color: palette.green,
+              icon_color: palette.blue,
             },
             {
               name: "whatsapp",
